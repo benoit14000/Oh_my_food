@@ -1,0 +1,49 @@
+.header {
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 2;
+    box-shadow: 0 15px 10px -15px $shadow;
+  }
+  .header h1 {
+    margin-top: 0.8rem;
+  }
+  @media only screen and (max-width: 1024px) {
+    .header {
+      position: sticky;
+      top: 0;
+      background-color: white;
+    }
+  }
+  .header-menu {
+    width: 100%;
+    box-shadow: none;
+  }
+  .header-menu h1 {
+    font-family: "Shrikhand", cursive;
+    flex: 3;
+    margin-right: 1.5rem;
+  }
+  .header-menu form {
+    flex: 1;
+    text-align: left;
+    margin-left: 1.5rem;
+  }
+  @media only screen and (min-width: 768px) {
+    .header-menu h1 {
+      text-align: center;
+      padding-right: 1.58rem;
+    }
+    .header-menu form {
+      flex: 0;
+    }
+  }
+  .header-menu button {
+    background-color: white;
+    font-size: 22px;
+    border: none;
+    margin-top: 0.8rem;
+    cursor: pointer;
+  }
+  

@@ -1,0 +1,19 @@
+{
+  "name": "ohmyfood",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch sass/main.scss css/style.css",
+    "sass": "sass --watch sass/abstracts/mixin.scss css/style.css",
+    "sass": "sass --watch sass/components/buttons.scss css/style.css",
+    "sass": "sass --watch sass/pages/home.scss css/style.css",
+    "sass": "sass --watch sass/utils/main.scss css/style.css",
+    "sass": "sass --watch sass/pages/home.scss css/style.css",
+    "sass": "sass --watch sass/layout/footer.scss css/style.css",
+    "sass": "sass --watch sass/layout/forms.scss css/style.css",
+    "sass": "sass --watch sass/layout/header.scss css/style.css"
+  },
+  "author": "",
+  "license": "ISC"
+}
